@@ -59,7 +59,7 @@
     }
 
     &-title {
-      @include fluid-text(30, 18) display: flex;
+      @include fluid-text(30, 18);
       
       display: flex;
       align-items: center;
