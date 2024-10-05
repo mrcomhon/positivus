@@ -17,6 +17,10 @@
   &__slider {
     ---reviewSliderSlideWidth: 606px;
 
+    &-hidden {
+        overflow-x: hidden; // не работает скрытие слайдера
+    }
+
     @include tablet {
       ---reviewSliderSlideWidth: 330px;
     }
