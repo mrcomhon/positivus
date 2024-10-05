@@ -60,6 +60,10 @@
       height: 30px;
       text-decoration: underline;
 
+      @include mobile {
+        text-decoration: none;
+      }
+
       @include hover {
         color: var(--color-accent);
       }
@@ -143,6 +147,10 @@
 
   &__privacy-policy-link {
     text-decoration: underline;
+
+    @include mobile {
+      text-decoration: none;
+    }
 
     @include hover {
       color: var(--color-accent);

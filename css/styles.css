@@ -1633,6 +1633,11 @@ h4, .h4 {
   height: 30px;
   text-decoration: underline;
 }
+@media (max-width: 767px) {
+  .footer__menu-link {
+    text-decoration: none;
+  }
+}
 @media (hover: hover) {
   .footer__menu-link:hover {
     color: var(--color-accent);
@@ -1722,6 +1727,11 @@ h4, .h4 {
 }
 .footer__privacy-policy-link {
   text-decoration: underline;
+}
+@media (max-width: 767px) {
+  .footer__privacy-policy-link {
+    text-decoration: none;
+  }
 }
 @media (hover: hover) {
   .footer__privacy-policy-link:hover {
